@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+class Student
+ {
+
+public:
+
+  int age;
+  string name;
+  int grade;
+
+};
+
+int main()
+{
+
+	Student ob1;
+	Student ob2;
+	Student ob3;
+
+ob1.age=20;
+ob1.name="ahmad";
+ob1.grade=99;
+
+ob2.age=30;
+ob2.name="mohamaad";
+ob2.grade=100;
+
+cout<<"your name is "<<ob1.name<<endl;
+cout<<"your age is "<<ob1.age<<endl;
+cout<<"your grade is "<<ob1.grade<<endl;
+cout<<"----------------------------------------------------"<<endl;
+cout<<"your name is "<<ob2.name<<endl;
+cout<<"your age is "<<ob2.age<<endl;
+cout<<"your grade is "<<ob2.grade<<endl;
+
+
+
+
+return 0;
+
+}
