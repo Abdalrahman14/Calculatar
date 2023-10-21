@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+	class Books
+
+{
+
+	public:
+		string title;
+		string author;
+		int price;
+		int pages;
+
+};
+
+	int main()
+{
+
+	Books book1;
+
+		book1.title = "Atomic Book";
+		book1.author="Abu mohanad";
+		book1.price= 450;
+		book1.pages= 1203;
+
+
+cout<<"book1";
+cout<<"book1 title:"<<book1.title<<endl;
+cout<<"book1 author:"<<book1.author<<endl;
+cout<<"book1 price:"<<book1.price<<endl;
+cout<<"book1 pages:"<<book1.pages<<endl;
+
+cout<<"----------------------------------------------------------------"<<endl;
+
+	Books book2;
+
+		book2.title = "programing Book";
+		book2.author="Abu samir";
+		book2.price= 150;
+		book2.pages= 600;
+
+
+cout<<"book2";
+cout<<"book2 title:"<<book2.title<<endl;
+cout<<"book2 author:"<<book2.author<<endl;
+cout<<"book2 price:"<<book2.price<<endl;
+cout<<"book2 pages:"<<book2.pages<<endl;
+
+	return 0;
+	}
